@@ -1,4 +1,4 @@
-# Tmc-Tips
+# Tmc_Wen-Tips
 How can I create Clonezilla live iso file from clonezilla live zip file?
 On a GNU/Linux system, download Clonezilla live zip file. Here we take clonezilla-live-2.5.5-38-amd6.iso as an example. Then run the following commands:
 mkdir /tmp/zip2iso
