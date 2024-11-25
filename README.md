@@ -7,5 +7,5 @@
 mkisofs -o custom_clonezilla.iso         -b syslinux/isolinux.bin         -c syslinux/boot.cat         -no-emul-boot         -boot-load-size 4         -boot-info-table         -iso-level 3         -J -R -V "CLONEZILLA"        ./
 ```
 ### -o -输出文件名，-b -引导加载器位置，-c -引导目录文件  
-### 仅支持legacybiso，uefi还在研究
+### 使用ipxe在pxe下仅支持legacybiso，uefi还在研究。用u盘则legacy、uefi都支持
 ---
